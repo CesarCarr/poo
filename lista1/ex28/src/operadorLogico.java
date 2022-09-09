@@ -43,11 +43,11 @@ public class operadorLogico{
 				C = false;
 			}
 		}
-		check = A || B || C;
+		check = A && B && C;
 		if(check == true) {
-			System.out.print("\nA || B || C = V");
+			System.out.print("\nA && B && C = V");
 		}else {
-			System.out.print("\nA || B || C = F");
+			System.out.print("\nA && B && C = F");
 		}
 	}
 }
