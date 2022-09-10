@@ -4,14 +4,10 @@ public class calculaSoma {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		double num=1, soma=0;
-		int quant, i;
-		Scanner input = new Scanner(System.in);
-		
-		System.out.print("Digite quantos valores serao somados: ");
-		quant = input.nextInt();
-		System.out.println("\nDigite os valores a serem somados.");
-		for(i = 0; i < quant; i++) {
+		System.out.println("Digite os valores a serem somados. Digite 0 (zero) para finalizar");
+		while(num != 0) {
 			System.out.print("Digite o proximo valor: ");
+			Scanner input = new Scanner(System.in);
 			num = input.nextDouble();
 			soma += num;	
 		}
