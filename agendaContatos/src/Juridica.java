@@ -3,7 +3,7 @@ public class Juridica extends Contato {
 	private int insc_estadual;
 	private String raz_social;
 	
-	public Juridica(String nome, String fone, String endereco, String email, int cnpj, int insc_estadual, String raz_social) {
+	public Juridica(String nome, int fone, String endereco, String email, int cnpj, int insc_estadual, String raz_social) {
 		super(nome, fone, endereco, email);
 		this.cnpj = cnpj;
 		this.insc_estadual = insc_estadual;

@@ -3,7 +3,7 @@ public class Fisica extends Contato {
 	private Data nascimento;
 	private String civil;
 	
-	public Fisica(String nome, String fone, String endereco, String email, int cpf, Data nascimento, String civil) {
+	public Fisica(String nome, int fone, String endereco, String email, int cpf, Data nascimento, String civil) {
 		super(nome, fone, endereco, email);
 		this.cpf = cpf;
 		this.nascimento = nascimento;

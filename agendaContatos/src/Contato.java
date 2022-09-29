@@ -1,10 +1,10 @@
 public abstract class Contato {
 	protected String nome;
-	protected String fone;
+	protected int fone;
 	protected String endereco;
 	protected String email;
 
-	public Contato(String nome, String fone, String endereco, String email) {
+	public Contato(String nome, int fone, String endereco, String email) {
 		
 		this.nome = nome;
 		this.fone = fone;
